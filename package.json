@@ -1,0 +1,37 @@
+{
+  "name": "jlt-template",
+  "version": "1.0.0",
+  "description": "jade, less and typescript template project for gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peerhenry/JLT-gulp.git"
+  },
+  "keywords": [
+    "jade",
+    "less",
+    "typescript",
+    "gulp"
+  ],
+  "author": "PeerHenry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peerhenry/JLT-gulp/issues"
+  },
+  "homepage": "https://github.com/peerhenry/JLT-gulp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^3.2.2",
+    "gulp-jade": "^1.1.0",
+    "gulp-less": "^3.0.5",
+    "gulp-plumber": "^1.1.0",
+    "gulp-typescript": "^2.13.0"
+  },
+  "dependencies": {
+    "gulp-nodemon": "^2.0.6",
+    "gulp-webserver": "^0.9.1"
+  }
+}
